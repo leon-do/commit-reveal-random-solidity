@@ -1,6 +1,12 @@
 # commit-reveal-random-solidity
 Generating random numbers using commit-reveal, and block hash
 
+0. generate preimage locally
+1. commit hash of preimage
+2. wait until next block
+3. reveal preimage
+4. return hash of blockHash + preimage
+
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
