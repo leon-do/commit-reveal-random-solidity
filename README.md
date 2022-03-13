@@ -3,7 +3,7 @@ Generating random numbers using commit-reveal, and block hash
 
 0. generate preimage locally
 1. commit hash of preimage
-2. wait until next block
+2. wait until next block (this acts as the source of entropy. can't predict the future)
 3. reveal preimage
 4. return hash of blockHash + preimage
 
